@@ -18,10 +18,10 @@ Function prototypes for login(), registration(), and forgot() are declared.
 * The user is then informed that the registration was successful, and they are redirected to the main menu.
 
 #FORGOT FUNCTION
-1.If the user selects option 3, the forgot() function is called. 
-2.It provides two options: to check the password by username or to go back to the main menu. 
-3.If the user chooses the first option, they are prompted to enter their username. 
-4.The data.txt file is searched for a match, and if found, the corresponding password is displayed. 
-5.If the username is not found, an error message is displayed, and the user is given the option to try again or return to the main menu.
-6.If the user selects option 4, a message is displayed, indicating that the program is exiting.
-7.If the user enters an invalid option, the screen is cleared, and the main() function is called again, displaying the menu.
+* If the user selects option 3, the forgot() function is called. 
+* It provides two options: to check the password by username or to go back to the main menu. 
+* If the user chooses the first option, they are prompted to enter their username. 
+* The data.txt file is searched for a match, and if found, the corresponding password is displayed. 
+* If the username is not found, an error message is displayed, and the user is given the option to try again or return to the main menu.
+* If the user selects option 4, a message is displayed, indicating that the program is exiting.
+* If the user enters an invalid option, the screen is cleared, and the main() function is called again, displaying the menu.
